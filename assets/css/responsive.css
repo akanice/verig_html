@@ -1,0 +1,66 @@
+﻿@media (min-width: 1200px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1280px;
+	}
+}
+
+@media (min-width: 768px){
+	.navbar-toggle {
+		display: none;
+	}
+}
+
+@media (max-width: 768px){
+	.table-data {
+		overflow: scroll;
+	}
+	.table-vr {
+		margin: 1px;
+	}
+}
+
+@media (max-width: 479px){
+	.owl-stage {
+		margin-left: -30px;
+	}
+	.products-slider .owl-stage {
+		margin-left: -60px;
+	}
+	.section-wcu {
+		background-size: contain;
+		background-position: bottom center;
+	}
+	.section-wcu .title {
+		margin-bottom: 36px;
+	}
+	.section-products .container {
+		display: flex;
+	}
+	.box-cal-temp {
+		border-radius: 16px;
+	}
+	.col1 .box-cal-temp,.col2 .box-cal-temp {
+		display: none;
+	}
+	.table-vr th, .table-vr td {
+		padding: 8px;
+	}
+	.table-vr .row {
+		min-width: 720px;
+	}
+	.table-vr .row > div {
+		display: inline-block;
+		width: auto;
+	}
+	.table-vr .row > div:nth-child(2) {padding: 0 15px 0 0 !important;}
+	.statistics .cover {
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		margin-right: 10px;   
+		flex-shrink: 0;
+	}
+	.statistics .cover img {
+		width: 20px;
+	}
+}
