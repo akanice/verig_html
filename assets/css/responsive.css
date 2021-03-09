@@ -117,6 +117,27 @@
 		width: auto;
 	}
 	.table-vr .row > div:nth-child(2) {padding: 0 15px 0 0 !important;}
+	.section-download .col-md-6:nth-child(2) {
+		position: absolute;
+	}
+	.section-download .content {
+		position: relative;
+		z-index: 2;
+		padding: 15px 25px;
+		height: 100%;
+		padding-top: 50%;
+	}
+	.section-download .col-md-6:nth-child(2):before {
+		position: absolute;
+		content: "";
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: #fff;
+		opacity: 0.85;
+		z-index: 1;
+	}
 	.statistics .cover {
 		width: 36px;
 		height: 36px;
