@@ -27,7 +27,7 @@ a, a:hover, a:focus {
 	text-decoration: none;
 }
 a:hover {
-	color: #fdb92e;
+	color: #1499fd;
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0 0 15px;
@@ -526,6 +526,7 @@ input[type=range]::-ms-track {
 }
 .section-products .p-col .title{
 	font-size: 40px;
+	text-align: left;
 }	
 .section-products .p-col .text{
 	min-height: 210px;
@@ -910,3 +911,5 @@ input[type=range]::-ms-track {
 	border-color: #1499fd;
 	color: #1499fd;
 }
+
+.owl-carousel.products-slider .owl-stage{display: flex;}
