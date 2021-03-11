@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
-		if (scroll > 60)
-			$('.main-navigation').addClass('sticky');
+		if (scroll > 10)
+			$('#navbar_main').addClass('sticky');
 		else
-		$('.main-navigation').removeClass('sticky');
+		$('#navbar_main').removeClass('sticky');
 	});
 	
 	// Sidebar navigation
@@ -117,7 +117,31 @@ $(document).ready(function() {
 				items:3,
 			}
 		}
-	});
+	});	
+	
+	// $(".auth_slide").owlCarousel({
+		// loop:false,
+		// margin:25,
+		// center: true,
+		// nav:true,
+		// autoplay: true,
+		// responsiveClass:true,
+		// dots:false,
+		// items:1,
+		// responsive:{
+			// 0:{
+				// items:1,
+				// margin: 5,
+			// },
+			// 600:{
+				// items:1,
+				// nav:false
+			// },
+			// 1000:{
+				// items:1,
+			// }
+		// }
+	// });
 	
 	// Slick - Achievement Slider
 	$('.ac-slider').slick({

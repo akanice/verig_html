@@ -114,7 +114,11 @@ body.offcanvas-active {
 	width: 100%;
 	visibility: visible;
 }
-.header-vrg .navbar-vrg{
+.header-vrg .navbar-vrg {
+	background: transparent;
+	transition: all 0.3s linear;
+}
+.header-vrg .navbar-vrg.sticky{
 	background: #fff;
 	box-shadow: 0 -2px 5px #8a8a8a;
 	height: 72px;
@@ -439,11 +443,21 @@ input[type=range]::-ms-track {
 	-webkit-backdrop-filter: blur(17px);
 	backdrop-filter: blur(17px);
 	background-image: linear-gradient(to right, #187cc7, #33a3f8);
-	color: #fff;
+	color: #f5f5f5;
 	font-size: 18px;
 	font-weight: normal;
 	font-family: 'Oswald';
 	display: block;
+}
+button.btn-reg {
+	border: 0;
+}
+.btn-reg:hover,.btn-reg:hover {
+	color: #fff;
+}
+.btn-fill {
+	width: 100%;
+	text-align: center;
 }
 .cal-reg .btn-reg {
 	padding: 12px 34px 13px 33px;
@@ -843,7 +857,7 @@ input[type=range]::-ms-track {
 .footer .widget {
 	padding: 0 15px;
 }
-.widget,.widget .title,.widget a {
+.widget,.widget .title,.widget a,label {
 	font-family: Nunito;
 	font-size: 16px;
 	color: #000;
@@ -911,5 +925,119 @@ input[type=range]::-ms-track {
 	border-color: #1499fd;
 	color: #1499fd;
 }
-
 .owl-carousel.products-slider .owl-stage{display: flex;}
+.section-auth {
+	background: url('/assets/img/magical-6046020_1920.jpg') no-repeat;
+	background-size: cover;
+}
+body.auth_page .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+.section-auth {
+	padding: 120px 0 0;
+	min-height: 100vh;
+}
+.section-auth .inner {
+	background: #fff;
+	padding: 40px 40px 120px;
+	border-radius: 36px 36px 0 0;    
+	max-width: 458px;
+    margin: auto;
+}
+.section-auth .inner .title {
+	margin-bottom: 42px;
+	font-size: 28px;
+	color: #000;
+}
+.section-auth .inner label,.section-auth .inner p {
+	color: #000;
+}
+.login_form .btn-reg {
+	font-size: 22px;
+}
+.login_form {
+	margin-bottom: 24px;
+}
+.login_form .form-check {
+	margin-bottom: 30px;
+}
+.login_form .form-control {
+	height: auto;
+    padding: 15px 15px 16px 42px;
+    font-size: 16px;
+	border-radius: 12px;
+}
+.login_form .form-control.input_email:before {
+	content: "\f0e0";
+}
+.login_form .wrapper {
+    position: relative; 
+	margin-bottom: 32px;
+}
+.login_form .wrapper:before {
+    font-family: "Font Awesome 5 Free";
+    color: #d8d8d8;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    font-weight: bold;
+    content: "\f0e0";
+    font-size: 16px;
+}
+.login_form .wrapper.input_email:before {
+    content: "\f0e0";
+}
+.login_form .wrapper.input_password:before {
+    content: "\f023";
+}
+.show_pwd {
+	position: absolute;
+    right: 15px;
+    top: 18px;
+	color: #1499fd;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 16px;
+}
+.auth_info_slide .thumb {
+	max-width:291px;
+	margin: auto;
+}
+.auth_info_slide .item {
+	max-width: 391px;
+	color: #fff;
+	text-align: center;
+	margin: auto;
+	font-size: 16px;
+}
+.auth_info_slide .item .title {
+	font-size: 28px;
+	margin: 16px 0;
+}
+.owl-btn {
+	display: block;
+	margin: 15px auto;
+	text-align: center;
+	color: #fff;
+}
+.btn-auth {
+	display: inline-block;
+    cursor: pointer;
+    border-radius: 99px;
+	width: 42px;
+	height: 42px;
+	line-height: 44px;
+	background: #fff;
+	color: #001a394d;
+	font-size: 14px;
+}
+.btn-auth.customPrevBtn {
+	margin-right: 20px;
+}
+.btn-auth:hover,.btn-auth:focus {
+	color: #187cc7;
+}
+.text_hl {
+	color: #1499fd;
+	font-weight: bold;
+}
