@@ -944,6 +944,9 @@ body.auth_page .navbar-expand-lg .navbar-nav .nav-item .nav-link {
 	max-width: 458px;
     margin: auto;
 }
+.section-auth.section-otp .inner {
+	border-radius: 36px;
+}
 .section-auth .inner .title {
 	margin-bottom: 42px;
 	font-size: 28px;
@@ -989,6 +992,9 @@ body.auth_page .navbar-expand-lg .navbar-nav .nav-item .nav-link {
 }
 .login_form .wrapper.input_password:before {
     content: "\f023";
+}
+.login_form .wrapper.input_phone:before {
+    content: "\f095";
 }
 .show_pwd {
 	position: absolute;

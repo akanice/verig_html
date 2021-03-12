@@ -43,81 +43,81 @@ $(document).ready(function() {
 	});
 	
 	// Owl Carousel
-	$(".home_testimonial_carousel").owlCarousel({
-		loop:false,
-		margin:15,
-		nav:false,
-		autoplay: false,
-		responsiveClass:true,
-		dots:false,
-		responsive:{
-			0:{
-				items:1,
-				nav:false,
-				dots:false,
-				margin: 5,
-				stagePadding: 30,
-			},
-			600:{
-				items:3,
-				nav:false
-			},
-			1000:{
-				items:3,
-			}
-		}
-	});
+	// $(".home_testimonial_carousel").owlCarousel({
+		// loop:false,
+		// margin:15,
+		// nav:false,
+		// autoplay: false,
+		// responsiveClass:true,
+		// dots:false,
+		// responsive:{
+			// 0:{
+				// items:1,
+				// nav:false,
+				// dots:false,
+				// margin: 5,
+				// stagePadding: 30,
+			// },
+			// 600:{
+				// items:3,
+				// nav:false
+			// },
+			// 1000:{
+				// items:3,
+			// }
+		// }
+	// });
 	
-	$(".home_blog_carousel").owlCarousel({
-		loop:false,
-		margin:15,
-		nav:false,
-		autoplay: false,
-		responsiveClass:true,
-		dots:false,
-		responsive:{
-			0:{
-				items:1,
-				nav:false,
-				dots:false,
-				margin: 5,
-				stagePadding: 30,
-			},
-			600:{
-				items:3,
-				nav:false
-			},
-			1000:{
-				items:3,
-			}
-		}
-	});
+	// $(".home_blog_carousel").owlCarousel({
+		// loop:false,
+		// margin:15,
+		// nav:false,
+		// autoplay: false,
+		// responsiveClass:true,
+		// dots:false,
+		// responsive:{
+			// 0:{
+				// items:1,
+				// nav:false,
+				// dots:false,
+				// margin: 5,
+				// stagePadding: 30,
+			// },
+			// 600:{
+				// items:3,
+				// nav:false
+			// },
+			// 1000:{
+				// items:3,
+			// }
+		// }
+	// });
 	
-	$(".products-slider").owlCarousel({
-		loop:false,
-		margin:25,
-		center: true,
-		nav:false,
-		autoplay: false,
-		responsiveClass:true,
-		dots:false,
-		responsive:{
-			0:{
-				items:1,
-				nav:false,
-				dots:false,
-				margin: 5,
-				stagePadding: 60,
-			},
-			600:{
-				items:3,
-				nav:false
-			},
-			1000:{
-				items:3,
-			}
-		}
-	});	
+	// $(".products-slider").owlCarousel({
+		// loop:false,
+		// margin:25,
+		// center: true,
+		// nav:false,
+		// autoplay: false,
+		// responsiveClass:true,
+		// dots:false,
+		// responsive:{
+			// 0:{
+				// items:1,
+				// nav:false,
+				// dots:false,
+				// margin: 5,
+				// stagePadding: 30,
+			// },
+			// 600:{
+				// items:3,
+				// nav:false
+			// },
+			// 1000:{
+				// items:3,
+			// }
+		// }
+	// });	
 	
 	// $(".auth_slide").owlCarousel({
 		// loop:false,
