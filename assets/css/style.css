@@ -669,7 +669,7 @@ button.btn-reg {
 	background-size: cover;
 	background-position: center center;
 }
-.info h3 {
+.info h3,.lb{
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -771,6 +771,9 @@ button.btn-reg {
 }
 .section-page-content .container,.page .breadcrumbs .container {
 	max-width: 1100px;
+}
+.page-product .container {
+	max-width: 1280px;
 }
 .sub-heading {
 	font-size: 14px;
@@ -1046,4 +1049,130 @@ body.auth_page .navbar-expand-lg .navbar-nav .nav-item .nav-link {
 .text_hl {
 	color: #1499fd;
 	font-weight: bold;
+}
+.hero-banners {
+	margin-top: 72px;
+}
+.hero-banners .banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:140px 0 40px 40px;
+	border-radius: 8px;
+	margin-top:35px;
+	overflow:hidden;
+	position: relative;
+}
+.hero-banners .banner:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;opacity:0.38;
+}
+.hero-banners .text {
+	position: relative;
+}
+.sub-heading {
+	font-family: Oswald;
+	font-size: 25px;
+	font-weight: 500;
+	color: #fff;
+	margin-bottom: 5px;
+}
+.hero-banners .heading {
+	font-family: Oswald;
+	font-size: 72px;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: 25px;
+}
+.loan-calculate .form-input {
+	background-image: linear-gradient(to right, #187cc7, #33a3f8);
+	padding: 24px 24px 32px;
+	border-radius: 8px;
+	margin-bottom: 24px;
+}
+.form-input label {
+	font-family: Oswald;
+	font-size: 18px;
+	font-weight: 500;
+}
+.form-input select option {
+	color: #333;
+}
+.form-input .form-control {
+	padding: 14px 16px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.2);
+	height: auto;
+	border: 0;
+	font-size: 22px;
+	font-family: Oswald;
+}
+.loan-calculate .cur {
+	position: relative;
+}
+.loan-calculate .cur .unit{
+	position: absolute;
+	top: 14px;
+	right: 16px;
+	bottom: 14px;
+	font-family: Oswald;
+	font-size: 22px;
+}
+.sub-heading,.hero-banners .heading,.form-input label,.loan-calculate .cur .unit,.form-input .form-control {
+	color: #fff;
+	font-weight: 500;
+}
+select.styled-select {
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+	background: url('/assets/img/br_down.png') no-repeat right #ddd;
+    background-position-x: 96%;
+    background-position-y: 50%;
+}
+.btn-submit {
+	background: #ffcc01;
+	width: 100%;
+	font-size: 24px;
+	color: #02182d;
+	font-weight: 600;
+}
+.loan-detail {
+	background: linear-gradient(to top, #ffffffe8,#ffffffe8),linear-gradient(to bottom, #1499fd, #1499fd);
+	padding: 28px;
+	border-radius: 8px;
+}
+.loan-detail .title {
+	font-size: 24px;
+}
+.first .number {
+	font-family: Oswald;
+	font-size: 24px;
+	font-weight: 600;
+	color: #33a3f8;
+}
+.loan-detail .lb {
+}
+.loan-detail .value {
+	color: #2b2824;
+	font-size: 16px;
+	font-weight: 500;
+}
+.loan-detail .d-flex {
+	padding: 16px 0;
+}
+.loan-detail .d-flex.first {
+	margin-bottom: 20px;
+	padding: 0;
+}
+.line-b {
+	border-bottom: 1px solid #c9e4f9;
+}
+.loan-detail .line-b:last-child {
+	border-bottom: 0;
+	padding-bottom: 0;
 }
