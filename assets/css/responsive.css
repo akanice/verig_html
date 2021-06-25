@@ -65,6 +65,19 @@
 	}
 }
 
+@media (max-width: 1368px){
+	.statistics {
+		margin-bottom: 14px;
+	}
+	.table-vr th, .table-vr td {
+		padding: 10px;
+		border: 2px solid #0000001a;
+	}
+	.section {
+		padding: 30px 0;
+	}
+}
+
 @media (min-width: 768px){
 	.navbar-toggle {
 		display: none;

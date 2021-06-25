@@ -476,7 +476,7 @@ button.btn-reg {
 .section-achievement {
 	padding: 0;
 }
-.section-achievement > div.align-self-center {
+.section-achievement > div.align-self-center,.section-testimonial > div.align-self-center {
 	max-height: 100%;
 }
 .ac-img {
